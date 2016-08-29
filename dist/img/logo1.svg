@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="134px" height="98px" viewBox="0 0 134 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="118.881202%" x2="-4.98270515%" y2="-21.7631799%" id="linearGradient-1">
+            <stop stop-color="#00FFF1" offset="0%"></stop>
+            <stop stop-color="#37EA7F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" fill="url(#linearGradient-1)">
+            <path d="M116,49 C116,21.9380473 94.0619527,0 67,0 C39.9380473,0 18,21.9380473 18,49 C18,76.0619527 39.9380473,98 67,98 C94.0619527,98 116,76.0619527 116,49 Z M23.2366412,49 C23.2366412,24.8301643 42.8301643,5.23664122 67,5.23664122 C91.1698357,5.23664122 110.763359,24.8301643 110.763359,49 C110.763359,73.1698357 91.1698357,92.7633588 67,92.7633588 C42.8301643,92.7633588 23.2366412,73.1698357 23.2366412,49 Z" id="Oval"></path>
+            <path d="M131.365212,53 C132.820365,53 134,51.8807119 134,50.5 C134,49.1192881 132.820365,48 131.365212,48 L2.63478809,48 C1.17963481,48 0,49.1192881 0,50.5 C0,51.8807119 1.17963481,53 2.63478809,53 L131.365212,53 Z" id="Line"></path>
+            <path d="M122.363749,76 C123.81971,76 125,74.8807119 125,73.5 C125,72.1192881 123.81971,71 122.363749,71 L11.6362513,71 C10.1802899,71 9,72.1192881 9,73.5 C9,74.8807119 10.1802899,76 11.6362513,76 L122.363749,76 Z" id="Line-Copy"></path>
+        </g>
+    </g>
+</svg>
