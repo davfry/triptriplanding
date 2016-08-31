@@ -1,4 +1,5 @@
-[
+var api = {
+  var trips = [
   {
     "id": 1,
     "username": "Scott",
@@ -7,3 +8,6 @@
     "tripPicUrl: "",
   },
 ]
+}
+
+module.exports = api;

@@ -17,48 +17,6 @@ export default class MainTripBrick extends Component {
             <Edit onClick={true} align="end"/>
           </Box>
         </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
       </Bricks>
     );
   }
