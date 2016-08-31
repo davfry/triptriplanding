@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 
 import Bricks from 'grommet/components/Bricks';
-import Brick from 'grommet/components/Brick';
-import Box from 'grommet/components/Box';
+import TripBrickModule from './TripBrickModule';
 
-import Favorite from 'grommet/components/icons/base/Favorite';
-import Edit from 'grommet/components/icons/base/Edit';
+import trips from '../../data/trips.js'
+
 
 export default class MainTripBrick extends Component {
   render() {
     return (
       <Bricks fill={true} flush={true}>
-        <Brick label="food tour of tokyo | 3 days" colorIndex="accent-1" type="medium">
-          <Box justify="between" direction="row">
-            <Favorite onClick={true}/>
-            <Edit onClick={true} align="end"/>
-          </Box>
-        </Brick>
+        {trips.map(tripData => <TripBrickModule key={tripData.id} {...tripData} />)}
       </Bricks>
     );
   }

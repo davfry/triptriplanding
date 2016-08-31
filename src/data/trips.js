@@ -1,6 +1,6 @@
 const trips = [
   {
-    "_id": "57c712117b3c80c44a6e462a",
+    "id": "57c712117b3c80c44a6e462a",
     "index": 0,
     "picture": "http://placehold.it/150x150",
     "username": "Vaughn",
@@ -9,7 +9,7 @@ const trips = [
     "likes": 67
   },
   {
-    "_id": "57c712119a45090fe2424a5b",
+    "id": "57c712119a45090fe2424a5b",
     "index": 1,
     "picture": "http://placehold.it/150x150",
     "username": "Nicole",
@@ -18,7 +18,7 @@ const trips = [
     "likes": 42
   },
   {
-    "_id": "57c712115b3ca147321b56b8",
+    "id": "57c712115b3ca147321b56b8",
     "index": 2,
     "picture": "http://placehold.it/150x150",
     "username": "Booth",
@@ -27,7 +27,7 @@ const trips = [
     "likes": 27
   },
   {
-    "_id": "57c71211dfdc95cd42c4b7af",
+    "id": "57c71211dfdc95cd42c4b7af",
     "index": 3,
     "picture": "http://placehold.it/150x150",
     "username": "Guerrero",
@@ -36,7 +36,7 @@ const trips = [
     "likes": 59
   },
   {
-    "_id": "57c71211c5127ce06d5dee5b",
+    "id": "57c71211c5127ce06d5dee5b",
     "index": 4,
     "picture": "http://placehold.it/150x150",
     "username": "Decker",
@@ -45,7 +45,7 @@ const trips = [
     "likes": 18
   },
   {
-    "_id": "57c71211f30a50f399650b6b",
+    "id": "57c71211f30a50f399650b6b",
     "index": 5,
     "picture": "http://placehold.it/150x150",
     "username": "Tracie",
@@ -54,7 +54,7 @@ const trips = [
     "likes": 62
   },
   {
-    "_id": "57c712113edc9b50fc46ee5a",
+    "id": "57c712113edc9b50fc46ee5a",
     "index": 6,
     "picture": "http://placehold.it/150x150",
     "username": "Jackson",
@@ -63,7 +63,7 @@ const trips = [
     "likes": 76
   },
   {
-    "_id": "57c712119f551fd3576916d9",
+    "id": "57c712119f551fd3576916d9",
     "index": 7,
     "picture": "http://placehold.it/150x150",
     "username": "Erica",
@@ -72,7 +72,7 @@ const trips = [
     "likes": 12
   },
   {
-    "_id": "57c712116094ca8bc2762c3e",
+    "id": "57c712116094ca8bc2762c3e",
     "index": 8,
     "picture": "http://placehold.it/150x150",
     "username": "Ray",
@@ -81,7 +81,7 @@ const trips = [
     "likes": 51
   },
   {
-    "_id": "57c712119b421ad9fd5ef3cb",
+    "id": "57c712119b421ad9fd5ef3cb",
     "index": 9,
     "picture": "http://placehold.it/150x150",
     "username": "Wolfe",
@@ -90,7 +90,7 @@ const trips = [
     "likes": 79
   },
   {
-    "_id": "57c71211ae70e6d43a4447a3",
+    "id": "57c71211ae70e6d43a4447a3",
     "index": 10,
     "picture": "http://placehold.it/150x150",
     "username": "Butler",
@@ -99,7 +99,7 @@ const trips = [
     "likes": 37
   },
   {
-    "_id": "57c71211c1f5f0865b74e6fb",
+    "id": "57c71211c1f5f0865b74e6fb",
     "index": 11,
     "picture": "http://placehold.it/150x150",
     "username": "Jewel",
@@ -108,7 +108,7 @@ const trips = [
     "likes": 33
   },
   {
-    "_id": "57c71211760f2682c66a2436",
+    "id": "57c71211760f2682c66a2436",
     "index": 12,
     "picture": "http://placehold.it/150x150",
     "username": "Kim",
@@ -117,7 +117,7 @@ const trips = [
     "likes": 88
   },
   {
-    "_id": "57c712118b5753ef11661372",
+    "id": "57c712118b5753ef11661372",
     "index": 13,
     "picture": "http://placehold.it/150x150",
     "username": "Barrera",
@@ -126,7 +126,7 @@ const trips = [
     "likes": 20
   },
   {
-    "_id": "57c71211bcc7ea3b5e1e44ef",
+    "id": "57c71211bcc7ea3b5e1e44ef",
     "index": 14,
     "picture": "http://placehold.it/150x150",
     "username": "Deleon",
@@ -135,7 +135,7 @@ const trips = [
     "likes": 31
   },
   {
-    "_id": "57c712119cc48ce786a58ec0",
+    "id": "57c712119cc48ce786a58ec0",
     "index": 15,
     "picture": "http://placehold.it/150x150",
     "username": "Gay",
