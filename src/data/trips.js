@@ -53,24 +53,24 @@ const trips = [
     "created": "Thursday, March 24, 2016 6:58 AM",
     "likes": 62
   },
-  {
-    "id": "57c712113edc9b50fc46ee5a",
-    "index": 6,
-    "picture": "https://s21.postimg.io/3zqlhi0lj/image.jpg",
-    "username": "Jackson",
-    "tripName": "Tokyo, Japan | 4 days",
-    "created": "Thursday, July 28, 2016 7:28 AM",
-    "likes": 76
-  },
-  {
-    "id": "57c712119f551fd3576916d9",
-    "index": 7,
-    "picture": "https://s10.postimg.io/oqkitq3qx/image.jpg",
-    "username": "Erica",
-    "tripName": "Tokyo, Japan | 8 days",
-    "created": "Friday, January 1, 2016 10:33 AM",
-    "likes": 12
-  },
+  // {
+  //   "id": "57c712113edc9b50fc46ee5a",
+  //   "index": 6,
+  //   "picture": "https://s21.postimg.io/3zqlhi0lj/image.jpg",
+  //   "username": "Jackson",
+  //   "tripName": "Tokyo, Japan | 4 days",
+  //   "created": "Thursday, July 28, 2016 7:28 AM",
+  //   "likes": 76
+  // },
+  // {
+  //   "id": "57c712119f551fd3576916d9",
+  //   "index": 7,
+  //   "picture": "https://s10.postimg.io/oqkitq3qx/image.jpg",
+  //   "username": "Erica",
+  //   "tripName": "Tokyo, Japan | 8 days",
+  //   "created": "Friday, January 1, 2016 10:33 AM",
+  //   "likes": 12
+  // },
   // {
   //   "id": "57c712116094ca8bc2762c3e",
   //   "index": 8,
