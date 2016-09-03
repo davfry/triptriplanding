@@ -16,8 +16,7 @@ export default class TodoAppDashboard extends Component {
         </Tile>
         <Tile size="large" align="center" justify="center">
           <Header><h3>triptrip is the easiest way to create trip itineraries, browse thousands </h3></Header>
-          <Table>
-          </Table>
+          <Table />
         </Tile>
       </Tiles>
       </Section>

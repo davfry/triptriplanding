@@ -19,8 +19,8 @@ export default class Hero extends Component {
           <Image size="xsmall" src="../../img/logo6.svg"/>
           <Heading tag="h2">TRIPTRIP</Heading>
           <Heading tag="h3">Travel like you've always dreamed.</Heading>
-          <Paragraph size="medium">A bastard guy line of copy to entice sign up.</Paragraph>
-        </Box>
+          <Paragraph>The simplest way to create, share, and browse thousands of travel itineraries.</Paragraph>
+            </Box>
         <Tiles flush={true} size="large" justify="center" align="center">
           <Tile size="large" flush={true}>
             <Form pad="medium">
