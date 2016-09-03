@@ -6,6 +6,8 @@ import Form from 'grommet/components/Form';
 import Box from 'grommet/components/Box';
 import Button from 'grommet/components/Button';
 import Image from 'grommet/components/Image';
+import Paragraph from 'grommet/components/Paragraph';
+import Heading from 'grommet/components/Heading';
 
 
 
@@ -14,9 +16,10 @@ export default class Hero extends Component {
     return (
       <Section primary={true} >
         <Box size="auto" justify="center" align="center" pad="medium">
-          <Image size="small" src="../../img/logo3.svg"/>
-          <h2>TRIPTRIP</h2>
-          <h3>Travel like you've always dreamed.</h3>
+          <Image size="xsmall" src="../../img/logo6.svg"/>
+          <Heading tag="h2">TRIPTRIP</Heading>
+          <Heading tag="h3">Travel like you've always dreamed.</Heading>
+          <Paragraph size="medium">A bastard guy line of copy to entice sign up.</Paragraph>
         </Box>
         <Tiles flush={true} size="large" justify="center" align="center">
           <Tile size="large" flush={true}>
