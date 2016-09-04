@@ -49,7 +49,7 @@ export default class MainHead extends Component {
           <Anchor href="/about">
             About
           </Anchor>
-          <Anchor href="#">
+          <Anchor href="/contact">
             Contact
           </Anchor>
           <Anchor href="#" onClick={this._requestDemoLayer}>
