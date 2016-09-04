@@ -17,7 +17,8 @@ export default class Hero extends Component {
       <Section primary={true} >
         <Box size="auto" justify="center" align="center" pad="medium">
           <Image size="xsmall" src="../../img/logo6.svg"/>
-          <Heading tag="h2">TRIPTRIP</Heading>
+          {/* <Heading tag="h2">TRIPTRIP</Heading> */}
+          <br />
           <Heading tag="h3">Travel like you've always dreamed.</Heading>
           <Paragraph>The simplest way to create, share, and browse thousands of travel itineraries.</Paragraph>
             </Box>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from 'grommet/components/Header';
 import Menu from 'grommet/components/Menu';
 import Anchor from 'grommet/components/Anchor';
+import Title from 'grommet/components/Title';
 
 
 import DemoLayer from './DemoLayer';
@@ -38,19 +39,24 @@ export default class MainHead extends Component {
 
     return (
       <Header direction="row" justify="between" large={true}
-        pad={{horizontal: 'medium'}} reverse={true}>
-          <Menu direction="row" align="center">
-            <Anchor href="#">
-              About
-            </Anchor>
-            <Anchor href="#">
-              Contact
-            </Anchor>
-            <Anchor href="#" onClick={this._requestDemoLayer}>
-              Demo
-            </Anchor>
-          </Menu>
-          {addDemoLayer}
+        pad={{horizontal: 'medium'}} reverse={false} fixed={true}>
+        <Title>
+          <Anchor href="/">
+            triptrip
+          </Anchor>
+        </Title>
+        <Menu direction="row" align="center">
+          <Anchor href="/about">
+            About
+          </Anchor>
+          <Anchor href="#">
+            Contact
+          </Anchor>
+          <Anchor href="#" onClick={this._requestDemoLayer}>
+            Demo
+          </Anchor>
+        </Menu>
+        {addDemoLayer}
       </Header>
     );
   }
