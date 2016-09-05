@@ -8,7 +8,7 @@ export default class Contact extends Component {
     return (
     <Section full={true} justify="center">
       <Heading tag="h3" align="center">
-      Contact info
+      You can write us at <a href="mailto:hello@triptrip.io" target="_blank">hello@triptrip.io</a>. You can also find us on <a href="https://twitter.com/davfry" target="_blank">Twitter</a>, <a href="https://twitter.com/davfry" target="_blank">Instagram</a>
       </Heading>
     </Section>
   );

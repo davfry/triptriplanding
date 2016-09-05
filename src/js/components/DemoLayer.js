@@ -1,33 +1,73 @@
 import React, { Component, PropTypes } from 'react';
+
 import Layer from 'grommet/components/Layer';
-import Header from 'grommet/components/Header';
-import Menu from 'grommet/components/Menu';
-import SearchInput from 'grommet/components/SearchInput';
 import Section from 'grommet/components/Section';
-import Anchor from 'grommet/components/Anchor';
+import Table from 'grommet/components/Table';
+import Brick from 'grommet/components/Brick';
+import Box from 'grommet/components/Box';
+import Button from 'grommet/components/Button';
 
-
-import User from 'grommet/components/icons/base/User';
-import Filter from 'grommet/components/icons/base/Filter';
-import Map from 'grommet/components/icons/base/Map';
-
-import TripBrick from './TripBrick';
-
+import Favorite from 'grommet/components/icons/base/Favorite';
 
 export default class DemoLayer extends Component {
   render() {
     return (
       <Layer align="right" closer={true} onClose={this.props.onClose}>
-        <Header justify="between">
-          <SearchInput id="demoSearch" inline={true} classname="flex" value="Tokyo, Japan" />
-          <Menu direction="row" align="center">
-            <Anchor icon={<Filter />} />
-            <Anchor icon={<Map />} />
-            <Anchor icon={<User />} />
-          </Menu>
-        </Header>
-        <Section size="medium">
-          <TripBrick />
+        <Section size="medium" full="true" align="center">
+          <Brick full={true} label="Trip Name" colorIndex="accent-1" type="wide" texture="https://s4.postimg.io/4g80ojegt/image.jpg" >
+            <Box justify="between" direction="row">
+              <Button icon={<Favorite colorIndex="critical"/>} onClick={true} label="56" plain={true} />
+            </Box>
+          </Brick>
+        </Section>
+        <Section>
+          <Table selectable={true} >
+            <thead>
+              <tr>
+                <th>
+                  Day 1
+                </th>
+                <th>
+                  Day 2
+                </th>
+                <th>
+                  Day 3
+                </th>
+                <th>
+                  Day 4
+                </th>
+                <th>
+                  Day 5
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  first
+                </td>
+                <td>
+                  note 1
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  second
+                </td>
+                <td>
+                  note 2
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  third
+                </td>
+                <td>
+                  note 3
+                </td>
+              </tr>
+            </tbody>
+          </Table>
         </Section>
       </Layer>
     );
