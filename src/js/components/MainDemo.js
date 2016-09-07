@@ -11,14 +11,34 @@ import Map from 'grommet/components/icons/base/Map';
 
 import MainTripBrick from './MainTripBrick';
 
-export default class Learn extends Component {
+export default class MainDemo extends Component {
+  constructor () {
+    super();
+
+    this._onTileClick = this._onTileClick.bind(this);
+
+    this.state = {
+      tileClicker: false
+    };
+  }
+
+  _onTileClick () {
+    this.setState({tileClicker: true });
+  // alert('hey you clicked me!');
+  }
+
   render() {
+
+    if (this.state.tileClicker) {
+      alert('clicked a tile');
+    }
+
     return (
       <Section>
         <Header justify="between">
           <Search inline={true} value="Tokyo, Japan" />
           <Menu direction="row" align="center">
-            <Anchor icon={<Filter />} />
+            <Anchor icon={<Filter />} onClick={this._onTileClick}/>
             <Anchor icon={<Map />} />
             <Anchor icon={<User />} />
           </Menu>

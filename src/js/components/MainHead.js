@@ -52,7 +52,7 @@ export default class MainHead extends Component {
           <Anchor href="/contact">
             Contact
           </Anchor>
-          <Anchor href="#" onClick={this._requestDemoLayer}>
+          <Anchor onClick={this._requestDemoLayer}>
             Demo
           </Anchor>
         </Menu>

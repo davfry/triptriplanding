@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Bricks from 'grommet/components/Bricks';
+import Tiles from 'grommet/components/Tiles';
 import TripBrickModule from './TripBrickModule';
 
 import trips from '../../data/trips.js';
@@ -9,9 +9,9 @@ import trips from '../../data/trips.js';
 export default class MainTripBrick extends Component {
   render() {
     return (
-      <Bricks fill={true} flush={true}>
+      <Tiles flush={false} fill={true} size="large">
         {trips.map(tripData => <TripBrickModule key={tripData.id} {...tripData} />)}
-      </Bricks>
+      </Tiles>
     );
   }
 }

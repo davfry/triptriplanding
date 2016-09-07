@@ -4,7 +4,8 @@ const trips = [
     "index": 0,
     "picture": "https://s4.postimg.io/4g80ojegt/image.jpg",
     "username": "Vaughn",
-    "tripName": "Kyoto, Japan | 5 days",
+    "tripName": "Kyoto, Japan",
+    "duration": "5",
     "created": "Sunday, July 17, 2016 7:28 PM",
     "likes": 67
   },
@@ -13,7 +14,8 @@ const trips = [
     "index": 1,
     "picture": "https://s4.postimg.io/m8tkwevp9/image.jpg",
     "username": "Nicole",
-    "tripName": "Tokyo, Japan | 2 days",
+    "tripName": "Tokyo, Japan",
+    "duration": "2",
     "created": "Friday, May 27, 2016 4:55 AM",
     "likes": 42
   },
@@ -22,7 +24,8 @@ const trips = [
     "index": 2,
     "picture": "https://s4.postimg.io/8o2sxafwd/image.jpg",
     "username": "Booth",
-    "tripName": "Tokyo, Japan | 13 days",
+    "tripName": "Tokyo, Japan",
+    "duration": "7",
     "created": "Wednesday, August 17, 2016 11:10 AM",
     "likes": 27
   },
@@ -31,7 +34,8 @@ const trips = [
     "index": 3,
     "picture": "https://s4.postimg.io/qgod55x4t/image.jpg",
     "username": "Guerrero",
-    "tripName": "Nara-shi, Japan | 9 days",
+    "tripName": "Nara-shi, Japan",
+    "duration": "9",
     "created": "Monday, March 21, 2016 8:40 PM",
     "likes": 59
   },
@@ -40,7 +44,8 @@ const trips = [
     "index": 4,
     "picture": "https://s21.postimg.io/ckjx8oarr/image.jpg",
     "username": "Decker",
-    "tripName": "Japan | 14 days",
+    "tripName": "Japan",
+    "duration": "10",
     "created": "Friday, February 5, 2016 9:31 AM",
     "likes": 18
   },
@@ -49,7 +54,8 @@ const trips = [
     "index": 5,
     "picture": "https://s21.postimg.io/aepme67bb/image.jpg",
     "username": "Tracie",
-    "tripName": "Tokyo, Japan | 7 days",
+    "tripName": "Tokyo, Japan",
+    "duration": "5",
     "created": "Thursday, March 24, 2016 6:58 AM",
     "likes": 62
   },
