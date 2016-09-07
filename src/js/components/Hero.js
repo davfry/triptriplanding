@@ -14,7 +14,7 @@ import Heading from 'grommet/components/Heading';
 export default class Hero extends Component {
   render() {
     return (
-      <Section primary={true} >
+      <Section primary={true}>
         <Box size="auto" justify="center" align="center" pad="medium">
           <Image size="xsmall" src="../../img/logo6.svg"/>
           {/* <Heading tag="h2">TRIPTRIP</Heading> */}

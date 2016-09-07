@@ -12,14 +12,12 @@ import Favorite from 'grommet/components/icons/base/Favorite';
 export default class DemoLayer extends Component {
   render() {
     return (
-      <Layer align="right" closer={true} onClose={this.props.onClose}>
-        <Section size="medium" full="true" align="center">
-          <Brick full={true} label="Trip Name" colorIndex="accent-1" type="wide" texture="https://s4.postimg.io/4g80ojegt/image.jpg" >
-            <Box justify="between" direction="row">
-              <Button icon={<Favorite colorIndex="critical"/>} onClick={true} label="56" plain={true} />
-            </Box>
-          </Brick>
-        </Section>
+      <Layer align="right" closer={true} onClose={this.props.onClose} >
+      <Section size="medium" align="center" colorIndex="accent-1" pad="none">
+      <h3>
+        Trip Name
+      </h3>
+      </Section>
         <Section>
           <Table selectable={true} >
             <thead>
