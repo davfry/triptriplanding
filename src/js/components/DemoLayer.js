@@ -2,21 +2,17 @@ import React, { Component, PropTypes } from 'react';
 
 import Layer from 'grommet/components/Layer';
 import Section from 'grommet/components/Section';
+import Hero from 'grommet/components/Hero';
 import Table from 'grommet/components/Table';
-import Brick from 'grommet/components/Brick';
-import Box from 'grommet/components/Box';
-import Button from 'grommet/components/Button';
-
-import Favorite from 'grommet/components/icons/base/Favorite';
 
 export default class DemoLayer extends Component {
   render() {
     return (
-      <Layer align="right" closer={true} onClose={this.props.onClose} >
-      <Section size="medium" align="center" colorIndex="accent-1" pad="none">
-      <h3>
-        Trip Name
-      </h3>
+      <Layer align="right" closer={true} onClose={this.props.onClose} flush={true}>
+      <Section size="medium">
+        <Hero size="layer" backgroundImage="https://s4.postimg.io/m8tkwevp9/image.jpg">
+          <p>test</p>
+        </Hero>
       </Section>
         <Section>
           <Table selectable={true} >
