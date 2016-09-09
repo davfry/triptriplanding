@@ -54,7 +54,7 @@ export default class MainDemo extends Component {
           <MainTripBrick />
         </Section>
         <Section pad="none" align="center">
-          <Anchor>Load more...</Anchor>
+          <Anchor onClick={this._onSignUpRequest}>Load more...</Anchor>
         </Section>
         {addSignUpLayer}
       </Section>

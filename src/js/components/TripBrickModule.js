@@ -8,35 +8,50 @@ import Header from 'grommet/components/Header';
 
 import Favorite from 'grommet/components/icons/base/Favorite';
 
+import DemoLayer from './DemoLayer';
+
 export default class TripBrickModule extends Component {
   constructor () {
-    super();
+    super ();
 
-    this._onTileClick = this._onTileClick.bind(this);
+    this._requestDemoLayer = this._requestDemoLayer.bind(this);
+    this._requestDemoLayerCancel = this._requestDemoLayerCancel.bind(this);
 
     this.state = {
-      tileClicker: false
+      demoLayer: false
     };
+
   }
 
-  _onTileClick () {
-    this.setState({tileClicker: true });
-  // alert('hey you clicked me!');
+  _requestDemoLayer () {
+    this.setState({ demoLayer: true});
+  }
+
+  _requestDemoLayerCancel () {
+    this.setState({ demoLayer: false});
   }
 
   render() {
 
-    if (this.state.tileClicker) {
-      alert('clicked a tile');
+    let addDemoLayer;
+    if (this.state.demoLayer) {
+      addDemoLayer = (
+        <DemoLayer onClose={this._requestDemoLayerCancel} />
+      );
     }
     return (
-        <Tile texture={this.props.picture} colorIndex="neutral-1" onClick={this._onTileClick}>
-          <Header>
-            <Button icon={<Favorite colorIndex="accent-3"/>} onClick={true} label={this.props.likes} plain={true}/>
+        <Tile texture={this.props.picture} colorIndex="neutral-1" onClick={this._requestDemoLayer}>
+          <Header size="small">
+            <Button icon={<Favorite colorIndex="accent-3"/>} onClick={function(event) {
+              event.stopPropagation();
+              alert('You clicked the button.');
+            }
+        }
+        label={this.props.likes} plain={true}/>
           </Header>
           <Box pad="large"/>
           <Box pad="large"/>
-          <Footer size="small" primary={false} colorIndex="grey-5" direction="row" align="center" justify="between">
+          <Footer size="small" primary={false} direction="row" align="center" justify="between">
             <Heading tag="h5" strong={true} uppercase={true} >
               {this.props.tripName}
             </Heading>
@@ -44,6 +59,7 @@ export default class TripBrickModule extends Component {
               {this.props.duration} days
             </Heading>
           </Footer>
+          {addDemoLayer}
         </Tile>
     );
   }

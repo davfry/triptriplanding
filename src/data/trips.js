@@ -5,9 +5,18 @@ const trips = [
     "picture": "https://s4.postimg.io/4g80ojegt/image.jpg",
     "username": "Vaughn",
     "tripName": "Kyoto, Japan",
-    "duration": "5",
+    "duration": "7",
     "created": "Sunday, July 17, 2016 7:28 PM",
-    "likes": 67
+    "likes": 67,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ],
   },
   {
     "id": "57c712119a45090fe2424a5b",
