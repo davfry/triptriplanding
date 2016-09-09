@@ -12,7 +12,6 @@ export default class DemoLayer extends Component {
       <Layer align="right" closer={true} onClose={this.props.onClose} flush={true}>
       <Section size="medium">
         <Hero size="layer" backgroundImage="https://s4.postimg.io/m8tkwevp9/image.jpg">
-          <p>test</p>
         </Hero>
       </Section>
         <Section>

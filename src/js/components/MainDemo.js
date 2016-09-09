@@ -10,37 +10,44 @@ import Filter from 'grommet/components/icons/base/Filter';
 import Map from 'grommet/components/icons/base/Map';
 
 import MainTripBrick from './MainTripBrick';
+import SignUpLayer from './SignUpLayer';
+
 
 export default class MainDemo extends Component {
   constructor () {
     super();
 
-    this._onTileClick = this._onTileClick.bind(this);
+    this._onSignUpRequest = this._onSignUpRequest.bind(this);
+    this._onSignUpRequestCancel = this._onSignUpRequestCancel.bind(this);
 
     this.state = {
-      tileClicker: false
+      signupLayer: false
     };
   }
 
-  _onTileClick () {
-    this.setState({tileClicker: true });
-  // alert('hey you clicked me!');
+  _onSignUpRequest () {
+    this.setState({signupLayer: true });
+  }
+  _onSignUpRequestCancel () {
+    this.setState({signupLayer: false });
   }
 
   render() {
-
-    if (this.state.tileClicker) {
-      alert('clicked a tile');
+    let addSignUpLayer;
+    if (this.state.signupLayer) {
+      addSignUpLayer = (
+      <SignUpLayer onClose={this._onSignUpRequestCancel} />
+      );
     }
 
     return (
       <Section>
         <Header justify="between">
-          <Search inline={true} value="Tokyo, Japan" />
+          <Search inline={true} defaultValue={"Tokyo, Japan"} onDOMChange={this._onSignUpRequest} />
           <Menu direction="row" align="center">
-            <Anchor icon={<Filter />} onClick={this._onTileClick}/>
-            <Anchor icon={<Map />} />
-            <Anchor icon={<User />} />
+            <Anchor icon={<Filter />} onClick={this._onSignUpRequest}/>
+            <Anchor icon={<Map />} onClick={this._onSignUpRequest}/>
+            <Anchor icon={<User />} onClick={this._onSignUpRequest}/>
           </Menu>
         </Header>
         <Section pad="medium">
@@ -49,6 +56,7 @@ export default class MainDemo extends Component {
         <Section pad="none" align="center">
           <Anchor>Load more...</Anchor>
         </Section>
+        {addSignUpLayer}
       </Section>
     );
   }
