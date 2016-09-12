@@ -12,7 +12,7 @@ export default class Main extends Component {
         <MainHead />
         {this.props.children}
         <Footer primary={true} appCentered={true} direction="row"
-          align="center" pad="small" justify="between">
+          align="center" pad="small" justify="between" splash={true}>
           <p>
             © 2016 triptrip.io
           </p>
