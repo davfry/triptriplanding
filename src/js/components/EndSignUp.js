@@ -10,7 +10,7 @@ import Headline from 'grommet/components/Headline';
 export default class EndSignUp extends Component {
   render() {
     return (
-      <Section justify="center" align="center">
+      <Section justify="center" align="center" texture="../../img/backgroundstars.svg">
         <Headline size="small">
           Sign up to show your support + get early access!
         </Headline>
