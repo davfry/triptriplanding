@@ -9,21 +9,11 @@ export default class TripDetails extends Component {
     return (
       <Box pad="none" direction="row">
         <Box>
-          <h3>Test</h3>
+          <h3>{this.props.tripName}</h3>
           <Tags direction="column" align="center">
-            <Tag label="First" />
+            <Tag label={this.props.details[0].hotel} />
             <Tag label="Second" />
             <Tag label="Third" />
-          </Tags>
-        </Box>
-        <Box>
-          <h3>Test</h3>
-          <Tags direction="column" align="center">
-            <Tag label="First" />
-            <Tag label="Second" />
-            <Tag label="Third" />
-            <Tag label="Fourth" />
-            <Tag label="Fifth" />
           </Tags>
         </Box>
       </Box>

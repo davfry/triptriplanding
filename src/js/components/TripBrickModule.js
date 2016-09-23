@@ -33,11 +33,11 @@ export default class TripBrickModule extends Component {
 
   render() {
 
-    let addDemoLayer;
+    let addDemoLayer = function() {};
     if (this.state.demoLayer) {
-      addDemoLayer = (
-        <DemoLayer onClose={this._requestDemoLayerCancel} />
-      );
+      addDemoLayer = function(props, cancelFunc) {
+        return <DemoLayer {...props} onClose={cancelFunc} />;
+      };
     }
     return (
         <Tile texture={this.props.picture} colorIndex="neutral-1" onClick={this._requestDemoLayer}>
@@ -59,7 +59,7 @@ export default class TripBrickModule extends Component {
               {this.props.duration} days
             </Heading>
           </Footer>
-          {addDemoLayer}
+          {addDemoLayer(this.props, this._requestDemoLayerCancel)}
         </Tile>
     );
   }

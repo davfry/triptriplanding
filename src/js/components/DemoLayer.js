@@ -15,7 +15,7 @@ export default class DemoLayer extends Component {
           <Hero size="layer" backgroundImage="https://s4.postimg.io/m8tkwevp9/image.jpg" />
         </Section>
         <Section pad="small">
-          <TripDetails />
+          <TripDetails {...this.props} />
         </Section>
       </Layer>
     );

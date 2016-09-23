@@ -16,7 +16,7 @@ const trips = [
       { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
       { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
       { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
-    ],
+    ]
   },
   {
     "id": "57c712119a45090fe2424a5b",
@@ -26,7 +26,16 @@ const trips = [
     "tripName": "Tokyo, Japan",
     "duration": "2",
     "created": "Friday, May 27, 2016 4:55 AM",
-    "likes": 42
+    "likes": 42,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ]
   },
   {
     "id": "57c712115b3ca147321b56b8",
@@ -36,7 +45,16 @@ const trips = [
     "tripName": "Tokyo, Japan",
     "duration": "7",
     "created": "Wednesday, August 17, 2016 11:10 AM",
-    "likes": 27
+    "likes": 27,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ]
   },
   {
     "id": "57c71211dfdc95cd42c4b7af",
@@ -46,7 +64,16 @@ const trips = [
     "tripName": "Nara-shi, Japan",
     "duration": "9",
     "created": "Monday, March 21, 2016 8:40 PM",
-    "likes": 59
+    "likes": 59,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ]
   },
   {
     "id": "57c71211c5127ce06d5dee5b",
@@ -56,7 +83,16 @@ const trips = [
     "tripName": "Japan",
     "duration": "10",
     "created": "Friday, February 5, 2016 9:31 AM",
-    "likes": 18
+    "likes": 18,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ]
   },
   {
     "id": "57c71211f30a50f399650b6b",
@@ -66,7 +102,16 @@ const trips = [
     "tripName": "Tokyo, Japan",
     "duration": "5",
     "created": "Thursday, March 24, 2016 6:58 AM",
-    "likes": 62
+    "likes": 62,
+    'details': [
+      { 'day': '1', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '2', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '3', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '4', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '5', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '6', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+      { 'day': '7', 'hotel': 'Ace', 'morning1': '', 'morning2': '', 'morning3': '', 'lunch': '', 'afternoon1': '', 'afternoon2': '', 'afternoon3': '', 'dinner': '', 'evening1': '', 'evening2': '' },
+    ]
   },
   // {
   //   "id": "57c712113edc9b50fc46ee5a",
