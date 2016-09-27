@@ -5,7 +5,6 @@ import Menu from 'grommet/components/Menu';
 import Search from 'grommet/components/Search';
 import Anchor from 'grommet/components/Anchor';
 
-import User from 'grommet/components/icons/base/User';
 import Filter from 'grommet/components/icons/base/Filter';
 import Map from 'grommet/components/icons/base/Map';
 
@@ -42,12 +41,11 @@ export default class MainDemo extends Component {
 
     return (
       <Section>
-        <Header justify="between">
-          <Search inline={true} defaultValue={"Tokyo, Japan"} onDOMChange={this._onSignUpRequest} />
+        <Header justify="between" pad={{horizontal: 'large'}} >
+          <Search inline={true} defaultValue={"Japan"} onDOMChange={this._onSignUpRequest} />
           <Menu direction="row" align="center">
             <Anchor icon={<Filter />} onClick={this._onSignUpRequest}/>
             <Anchor icon={<Map />} onClick={this._onSignUpRequest}/>
-            <Anchor icon={<User />} onClick={this._onSignUpRequest}/>
           </Menu>
         </Header>
         <Section pad="medium">

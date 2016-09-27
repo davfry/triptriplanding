@@ -51,7 +51,7 @@ export default class TripBrickModule extends Component {
           </Header>
           <Box pad="large"/>
           <Box pad="large"/>
-          <Footer size="small" primary={false} direction="row" align="center" justify="between">
+          <Footer size="small" primary={false} direction="row" align="center" justify="between" pad={{horizontal: 'small'}}>
             <Heading tag="h5" strong={true} uppercase={true} >
               {this.props.tripName}
             </Heading>
