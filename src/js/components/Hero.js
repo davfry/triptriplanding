@@ -16,12 +16,10 @@ export default class Hero extends Component {
       <Section primary={true} texture="../../img/backgroundstars.svg">
         <Box size="auto" justify="center" align="center" pad="medium" >
           <Image size="xsmall" src="../../img/logo6.svg"/>
-          {/* <Heading tag="h2">TRIPTRIP</Heading> */}
           <br />
-          <Heading tag="h3">Travel like you've always dreamed.</Heading>
           <Heading tag="h4" strong={true} >The simplest way to create, share, and browse thousands of travel itineraries.</Heading>
             </Box>
-            <Box pad="large" />
+            <Box pad="medium" />
         <Tiles flush={true} size="large" justify="center" align="center">
           <Tile size="large" flush={true}>
             <Form pad="medium">

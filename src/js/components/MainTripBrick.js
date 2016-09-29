@@ -9,7 +9,7 @@ import trips from '../../data/trips.js';
 export default class MainTripBrick extends Component {
   render() {
     return (
-      <Tiles flush={false} fill={true} size="medium">
+      <Tiles flush={false} fill={true} size="medium" >
         {trips.map(tripData => <TripBrickModule key={tripData.id} {...tripData} />)}
       </Tiles>
     );
