@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Tile from 'grommet/components/Tile';
 import Box from 'grommet/components/Box';
 import Button from 'grommet/components/Button';
 import Footer from 'grommet/components/Footer';
@@ -40,7 +39,8 @@ export default class TripBrickModule extends Component {
       };
     }
     return (
-        <Tile texture={this.props.picture} colorIndex="neutral-1" onClick={this._requestDemoLayer}>
+      <Box basis="1/3" pad="small" onClick={this._requestDemoLayer}>
+        <Box texture={this.props.picture} colorIndex="neutral-1">
           <Header size="small">
             <Button icon={<Favorite colorIndex="accent-3"/>} onClick={function(event) {
               event.stopPropagation();
@@ -51,16 +51,17 @@ export default class TripBrickModule extends Component {
           </Header>
           <Box pad="large"/>
           <Box pad="large"/>
-          <Footer size="small" primary={false} direction="row" align="center" justify="between" pad={{horizontal: 'small'}}>
-            <Heading tag="h5" strong={true} uppercase={true} >
-              {this.props.tripName}
-            </Heading>
-            <Heading tag="h5" strong={true} uppercase={true} >
-              {this.props.duration} days
-            </Heading>
-          </Footer>
-          {addDemoLayer(this.props, this._requestDemoLayerCancel)}
-        </Tile>
+        </Box>
+        <Footer size="small" primary={false} direction="row" align="center" justify="between" pad={{horizontal: 'none'}}>
+          <Heading tag="h5" strong={true} uppercase={true} >
+            {this.props.tripName}
+          </Heading>
+          <Heading tag="h5" strong={true} uppercase={true} >
+            {this.props.duration} days
+          </Heading>
+        </Footer>
+        {addDemoLayer(this.props, this._requestDemoLayerCancel)}
+      </Box>
     );
   }
 }
