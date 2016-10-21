@@ -11,15 +11,13 @@ import TripDetails from './TripDetails';
 export default class DemoLayer extends Component {
   render() {
     return (
-      <Layer align="right" closer={true} onClose={this.props.onClose} flush={true}>
+      <Layer align="right" closer={true} onClose={this.props.onClose} flush={false}>
         <Header size="small" pad="small">
           {this.props.tripName}
         </Header>
         <Section size="large">
           <Hero size="layer" backgroundType="image" backgroundImage={this.props.picture} />
-        </Section>
-        <Section pad="small">
-          <TripDetails {...this.props} />
+            <TripDetails {...this.props} />
         </Section>
       </Layer>
     );
