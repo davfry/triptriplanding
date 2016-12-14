@@ -15,7 +15,7 @@ export default class DemoLayer extends Component {
         <Header size="small" pad="small">
           {this.props.tripName}
         </Header>
-        <Section size="large">
+        <Section>
           <Hero size="layer" backgroundType="image" backgroundImage={this.props.picture} />
             <TripDetails {...this.props} />
         </Section>
