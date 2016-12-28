@@ -8,18 +8,18 @@ import Paragraph from 'grommet/components/Paragraph';
 export default class About extends Component {
   render () {
     return (
-      <Article align="center">
+      <Article align="center" full={true}>
         <Section>
           <Heading tag="h3" strong={true} margin="none">
             Our Story
           </Heading>
           <Section pad="none">
           <p>
-          It's really hard to get things done with the people around us, and to stay on track with what we need to get done in our own life. <br/><br/>
+          The idea for TripTrip came from a personal problem. My wife and I were planning a trip to Japan and it was a pain. We were amassing a lot of different ideas of things to do from travel sites, blogs, Instagram feeds, and suggestions from friends and family but we didn't have a great way to organize everything. So we did what everyone does when they don't have a good way to organize data and turned to Google sheets. What bugged me though is that I spent all of this time and effort planning this trip, I go on the trip and no one else can use the work I did. <br/><br/>
 
-          But, getting things done with the people around us is at the foundation of what we do everyday. And while we can't get away from it, we can change how we interact with it. We can make your life easier. <br/><br/>
+          I was talking to my friend about it and he had the exact same problem but was using Excel instead of Sheets. Another friend we talked to was planning his trip to New York using Trello. <br/><br/>
 
-          When making WeDo, we realized people kept sending us tasks via texts and emails. And one day it dawned on us: rather than forcing people to use another app just to communicate with people about a project, why not just move our conversations about this project into the app? <br/><br/>
+          There was no platform that allowed us to plan our trips the way we wanted. There was no platform that allowed us to browse other people's itineraries to get inspiration. So we made TripTrip. Now we need your help to create itineraries and spread the word!
           </p>
           </Section>
           <Heading tag="h5" strong={true} margin="none">
@@ -30,7 +30,7 @@ export default class About extends Component {
               Email: <a href="mailto:hello@triptrip.io" target="_blank">hello@triptrip.io</a>
             </Paragraph>
             <Paragraph margin="none">
-              Twitter: <a href="www.twitter.com" target="_blank">@triptripio</a>
+              Twitter: <a href="https://twitter.com/triptripio" target="_blank">@triptripio</a>
             </Paragraph>
           </Section>
         </Section>

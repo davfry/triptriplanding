@@ -18,7 +18,12 @@ export default class SignUpLayer extends Component {
             We need help creating itineraries and building this community!
           </Headline>
           <p>Please sign up to show your support and get early access. Don't worry, we'll treat your email address like we'd want ours to be treated.</p>
-          <Form pad="medium">
+          <Form
+          pad="medium"
+          action="//morningperson.us9.list-manage.com/subscribe/post?u=02976f547bde7affaa3366531&amp;id=c44fa5d872"
+          method="post"
+          target="_blank"
+          >
             <Box direction="row" pad={{between: 'large'}}>
               <FormField>
                 <input id="email" type="email" placeholder="scott@triptrip.io"/>
