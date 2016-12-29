@@ -3,6 +3,7 @@ import Section from 'grommet/components/Section';
 import Box from 'grommet/components/Box';
 import Image from 'grommet/components/Image';
 import Heading from 'grommet/components/Heading';
+import Paragraph from 'grommet/components/Paragraph';
 
 
 export default class Learn extends Component {
@@ -13,17 +14,17 @@ export default class Learn extends Component {
           <Box size="small" margin={{horizontal: 'large'}} align="center">
             <Heading margin="small" tag="h2">Plan</Heading>
             <Image src="../../img/plan.svg"/>
-            <p>Plan your dream vacations. Do it on your own or collaborate with friends.</p>
+            <Paragraph align="center" >Plan your dream vacations. Do it on your own or collaborate with friends.</Paragraph>
           </Box>
           <Box size="small" margin={{horizontal: 'large'}} align="center">
           <Heading margin="small" tag="h2">Explore</Heading>
             <Image src="../../img/explore.svg"/>
-          <p>Browse thousands of itineraries built by travelers just like you.</p>
+          <Paragraph align="center" >Browse thousands of itineraries built by travelers just like you.</Paragraph>
           </Box>
           <Box size="small" margin={{horizontal: 'large'}} align="center">
           <Heading margin="small" tag="h2">Book & Go</Heading>
             <Image src="../../img/bookgo.svg"/>
-          <p>Book your trips in one click and travel like you've always dreamed.</p>
+          <Paragraph align="center" >Book your trips in one click and travel like you've always dreamed.</Paragraph>
           </Box>
         </Box>
       </Section>
