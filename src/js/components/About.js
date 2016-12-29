@@ -8,14 +8,14 @@ import Paragraph from 'grommet/components/Paragraph';
 export default class About extends Component {
   render () {
     return (
-      <Article align="center" full={true}>
+      <Article align="center" full={true} pad="large">
         <Section>
           <Heading tag="h3" strong={true} margin="none">
             Our Story
           </Heading>
           <Section pad="none">
           <p>
-          The idea for TripTrip came from a personal problem. My wife and I were planning a trip to Japan and it was a pain. We were amassing a lot of different ideas of things to do from travel sites, blogs, Instagram feeds, and suggestions from friends and family but we didn't have a great way to organize everything. So we did what everyone does when they don't have a good way to organize data and turned to Google sheets. What bugged me though is that I spent all of this time and effort planning this trip, I go on the trip and no one else can use the work I did. <br/><br/>
+          In April 2016 my wife and I started planning a trip to Japan. We were amassing a lot of different ideas of things to do from travel sites, blogs, Instagram feeds, and suggestions from friends and family but we didn't have a great way to organize everything. So we did what everyone does when they don't have a good way to organize data and turned to Google sheets. What bugged me though is that I spent all of this time and effort planning this trip, I go on the trip and no one else can use the work I did. <br/><br/>
 
           I was talking to my friend about it and he had the exact same problem but was using Excel instead of Sheets. Another friend we talked to was planning his trip to New York using Trello. <br/><br/>
 

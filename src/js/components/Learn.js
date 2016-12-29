@@ -8,7 +8,7 @@ import Heading from 'grommet/components/Heading';
 export default class Learn extends Component {
   render() {
     return (
-      <Section align="center">
+      <Section align="center" pad={{vertical: 'none'}}>
         <Box direction="row">
           <Box size="small" margin={{horizontal: 'large'}} align="center">
             <Heading margin="small" tag="h2">Plan</Heading>

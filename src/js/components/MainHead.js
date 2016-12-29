@@ -57,6 +57,9 @@ export default class MainHead extends Component {
           <Anchor href="/about">
             About
           </Anchor>
+          <Anchor href="#demo">
+            Demo
+          </Anchor>
           <Anchor onClick={this._onSignUpRequest} primary={true}>
             Sign Up
           </Anchor>
