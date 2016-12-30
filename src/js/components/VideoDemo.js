@@ -12,7 +12,7 @@ export default class VideoDemo extends Component {
           <Heading align="center" margin="small" tag="h2">
             Demo Video
           </Heading>
-          <Video size="large" shareLink="triptrip.io/#demo" showControls={true} colorIndex="brand-color">
+          <Video size="xxlarge" shareLink="triptrip.io/#demo" showControls={true}>
             <source src="../../img/triptripdemo.mov" />
           </Video>
         </Section>

@@ -54,13 +54,13 @@ export default class MainHead extends Component {
         </Button>
         </Title>
         <Menu direction="row" align="center">
-          <Anchor href="/about">
+          <Anchor className="black" href="/about">
             About
           </Anchor>
-          <Anchor href="#demo">
+          <Anchor className="black" href="/#demo">
             Demo
           </Anchor>
-          <Anchor onClick={this._onSignUpRequest} primary={true}>
+          <Anchor className="black" onClick={this._onSignUpRequest} primary={true}>
             Sign Up
           </Anchor>
           {/* <Anchor href="/contact">
