@@ -16,6 +16,6 @@ export default class Home extends Component {
       {/* <EndSignUp /> */}
       <VideoDemo />
     </Section>
-  );
+    );
   }
 }

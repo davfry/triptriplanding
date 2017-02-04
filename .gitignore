@@ -1,0 +1,5 @@
+src/data/database.js
+node_modules
+.firebaserc
+dist
+.DS_Store

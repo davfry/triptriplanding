@@ -11,6 +11,6 @@ export default class NotFound extends Component {
       <Image size="small" src="../../img/404.svg" />
       <Heading tag="h2" align="center">You're lost... page not found!</Heading>
     </Section>
-  );
+    );
   }
 }

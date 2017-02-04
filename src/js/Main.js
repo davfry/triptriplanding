@@ -20,8 +20,8 @@ export default class Main extends Component {
             © 2016 triptrip.io
           </Paragraph>
             <span className="FooterShare">
-              <SocialShare type="twitter" link="http://triptrip.io" text="If you're planning a vacation or just like to travel, check this out... @triptripio " />
-              <SocialShare type="facebook" link="http://triptrip.io" />
+              <SocialShare type="twitter" link="https://triptrip.io" text="If you're planning a vacation or just like to travel, check this out... @triptripio " />
+              <SocialShare type="facebook" link="https://triptrip.io" />
             </span>
           <Paragraph margin="none">
             email us at <a href="mailto:hello@triptrip.io">hello@triptrip.io</a>
